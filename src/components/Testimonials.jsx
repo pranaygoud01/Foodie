@@ -1,25 +1,25 @@
 import React from 'react'
 import girl2 from "../assets/girl2.png"
 import { Star } from 'lucide-react'
-import reactangle from "../assets/reactangle.png"
+
 const Testimonials = () => {
   return (
     <div className='flex justify-center w-full font-inter bg-[#fafafa]'>
-<div className='max-w-[1300px] w-full flex gap-10 py-7'>
-   <div className='w-[50%] h-[600px] relative flex justify-center items-end'>
-        <div className='h-[50%] w-7/12 rounded-b-xl bg-[#53EC62]'
+<div className='max-w-[1300px] w-full max-lg:flex-col max-lg:h-fit  flex gap-10 py-7'>
+   <div className='w-[50%] max-lg:w-full h-[600px] max-lg:h-[480px]  relative flex justify-center items-end'>
+        <div className='h-[50%] max-lg:w-11/12 w-7/12 rounded-b-xl bg-[#53EC62]'
         style={{borderRadius:"60% 40% 89% 11% / 45% 100% 0% 55% "}}>
         </div>
         <img src={girl2} className='absolute h-[500px] w-9/12 object-contain'/>
-      <span className='absolute h-full w-6/12 text-3xl flex items-center pt-30 justify-start'>😋</span>
-        <span className='absolute h-full w-6/12 text-3xl flex items-center pt-26 justify-end '>🍕</span>
+      <span className='absolute h-full w-6/12 max-lg:w-11/12 text-3xl flex items-center pt-30 justify-start'>😋</span>
+        <span className='absolute h-full w-6/12 max-lg:w-11/12 text-3xl flex items-center pt-26 justify-end '>🍕</span>
         <div className='h-full w-full flex items-end justify-end absolute mr-5'>
         <h1 className='absolute font-bold bg-white px-5 py-2 rounded-xl shadow-2xl'>Our Best Chef 😁</h1></div>
    </div>
-   <div className='w-[50%] flex flex-col gap-10 h-full p-10 py-36'>
+   <div className='w-[50%] max-lg:w-full flex flex-col gap-10 max-lg:gap-4 h-full p-10 max-lg:px-5 py-36 max-lg:py-10'>
    <h1 className='tracking-widest text-[#FF6868] font-bold text-md uppercase'>Testimonials</h1>
-   <h1 className='text-5xl font-bold'>What Our Customers<br/> Say About Us</h1>
-   <p className='text-lg w-9/12 text-[#555555]'>“I had the pleasure of dining at Foodi last night, and I'm still raving about the experience! The attention to detail in presentation and service was impeccable”</p>
+   <h1 className='text-5xl max-lg:text-4xl font-bold'>What Our Customers<br/> Say About Us</h1>
+   <p className='text-lg w-9/12 max-lg:w-full max-lg:text-sm text-[#555555]'>“I had the pleasure of dining at Foodi last night, and I'm still raving about the experience! The attention to detail in presentation and service was impeccable”</p>
    <div className="flex items-center gap-6 mt-6">
           <div className="flex -space-x-2">
             <img
@@ -39,8 +39,8 @@ const Testimonials = () => {
             />
           </div>
           <div>
-            <h3 className="font-semibold text-xl text-gray-800">Customer Feedback</h3>
-            <div className="flex items-center gap-1 text-lg text-yellow-500 font-medium">
+            <h3 className="font-semibold text-xl max-lg:text-[16px] text-gray-800">Customer Feedback</h3>
+            <div className="flex max-lg:text-sm items-center gap-1 text-lg text-yellow-500 font-medium">
               <Star size={16} fill="currentColor" />
               4.9 <span className="text-gray-500">(18.6k Reviews)</span>
             </div>

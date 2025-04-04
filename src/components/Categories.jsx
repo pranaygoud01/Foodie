@@ -17,7 +17,7 @@ const Categories = () => {
               <h1 className='text-5xl font-bold'>Popular Catagories</h1>
               <div className='w-full h-[300px] mt-10  grid gap-10 grid-cols-4'>
                   {food.map((item,index)=>{
-                    return <div className='h-full flex flex-col items-center gap-3  bg-white justify-center w-[300px] rounded-3xl shadow-xl cursor-pointer'>
+                    return <div key={index} className='h-full flex flex-col items-center gap-3  bg-white justify-center w-[300px] rounded-3xl shadow-xl cursor-pointer'>
                         <div className='w-36 h-36 flex justify-center items-center p-4 rounded-full bg-[#C1F1C6]'>
                             <img src={item.image}/>
                             </div>

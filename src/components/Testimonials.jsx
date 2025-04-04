@@ -11,10 +11,10 @@ const Testimonials = () => {
         style={{borderRadius:"60% 40% 89% 11% / 45% 100% 0% 55% "}}>
         </div>
         <img src={girl2} className='absolute h-[500px] w-9/12 object-contain'/>
-      <span className='absolute h-full w-6/12 text-3xl flex items-center justify-start'>😋</span>
-        <span className='absolute h-full w-6/12 text-3xl flex items-center justify-end '>🍕</span>
-        <div className='h-full w-full flex items-end justify-end absolute'><img src={reactangle} className='h-[50px]   w-[250px] object-contain'></img>
-        <h1 className='absolute font-bold pr-18 pb-3'>Our Best Chef 😁</h1></div>
+      <span className='absolute h-full w-6/12 text-3xl flex items-center pt-30 justify-start'>😋</span>
+        <span className='absolute h-full w-6/12 text-3xl flex items-center pt-26 justify-end '>🍕</span>
+        <div className='h-full w-full flex items-end justify-end absolute mr-5'>
+        <h1 className='absolute font-bold bg-white px-5 py-2 rounded-xl shadow-2xl'>Our Best Chef 😁</h1></div>
    </div>
    <div className='w-[50%] flex flex-col gap-10 h-full p-10 py-36'>
    <h1 className='tracking-widest text-[#FF6868] font-bold text-md uppercase'>Testimonials</h1>

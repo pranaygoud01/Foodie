@@ -20,7 +20,7 @@ const Header = () => {
             <div className='absolute font-bold h-full w-full flex mt-50 '>
             <button className='bg-white py-2 px-4 h-fit text-red-400 rounded-xl shadow-2xl'>Hot spicy Food 🌶️</button>
             </div>
-            <div className='w-9/12 rounded-full h-[88%] overflow-hidden bg-[#39DB4A]'>
+            <div className='w-9/12 rounded-full h-[88%] bg-[#39DB4A]'>
                <img src={girl} className=' h-full w-full object-cover'/>
             </div>
             <FoodCards/>

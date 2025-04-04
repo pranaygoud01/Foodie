@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import logo from "../assets/logo.png";
-import f from "../assets/f.png";
+import f from "../assets/F.png";
 import { Search, ShoppingBag, PhoneCall } from 'lucide-react';
 import { IoIosArrowDown } from "react-icons/io";
 import { RiMenu3Fill } from "react-icons/ri";

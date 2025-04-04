@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from "../assets/logo.png";
-import f from "../assets/f.png"
+import f from "../assets/F.png"
 import { FiFacebook } from "react-icons/fi";
 import { FaInstagram } from "react-icons/fa";
 import { LuTwitter } from "react-icons/lu";
